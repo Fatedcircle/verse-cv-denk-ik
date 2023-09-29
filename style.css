@@ -1,0 +1,43 @@
+.banner {
+    background-image: url("Images/domenico-loia-hGV2TfOh0ns-unsplash.jpg");
+    background-size: cover;
+}
+
+.banner .container-fluid {
+    justify-content: center;
+    height: 50vw;
+}
+
+.titel {
+    font-style: italic;
+    color: #ffccd4;
+    background-color: #a9a9a9;
+    max-width: 30%;
+    margin: 10px auto;
+}
+
+.contact.btn {
+    max-width: 25%;
+    margin: 0 auto;
+    border: 1px dashed darkblue;
+    background-color: rgba(169, 169, 169, 0.5);
+}
+
+.card {
+    background-color: #ffccd4;
+}
+.contact-section img{
+    max-width: 100px;
+}
+footer {
+    background: #ffccd4;
+}
+
+@media (max-width: 991px) {
+    .centered-img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
